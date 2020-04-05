@@ -1,0 +1,100 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+   *
+{
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+   list-style: none;
+}
+  .sidebar
+{
+   position: fixed;
+   top: -750px;
+   width: 250px;
+   height: 100%;
+   background-color: black;
+   transition: all .5s ease;
+}
+   .sidebar header
+{
+   text-align: center;
+   color: rgb(245, 216, 163);
+   font-size: 30px;
+   line-height: 70px;
+   background-color: black;
+}
+   .sidebar ul a
+{
+   color: rgb(245, 216, 163);
+   display: block;
+   height: 100%;
+   width: 100%;
+   padding-left: 40px;
+   font-size: 20px;
+   line-height: 65px;
+   box-sizing: border-box;
+   border-top: 1px solid rgb(245, 216, 163);
+   border-bottom: 1px solid rgb(245, 216, 163);
+   transition: .4s;
+}
+  .sidebar ul a i
+{ 
+   margin-right: 16px;
+} 
+  ul li:hover a
+{
+   padding-left: 50px;
+}
+   #check
+{
+   display: none;
+}
+   label #btn,label #cancel
+{
+   position: absolute;
+   cursor: pointer;
+   background-color: #abd9ee;
+   border-radius: 3px;
+} 
+   label #btn
+{
+  top: 25px;
+  left: 40px;
+  font-size: 35px;
+  color: white;
+  padding: 6px 12px;
+  transition: all .5s ease;
+}  
+   label #cancel
+{
+  z-index: 1111;
+  top: 17px;
+  left: -195px;
+  font-size: 25px;
+  color: rgb(245, 216, 163);;
+  background-color: black;
+  padding: 4px 9px;
+  transition: all .5s ease;
+}
+   #check:checked ~ .sidebar
+{
+   top: 0;
+}
+   #check:checked ~ label #btn
+{
+   top: 250px;
+   opacity: 0;
+}
+   #check:checked ~ label #cancel
+{
+   left: 195px;
+}
+  body
+{
+   background: url(1.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+   font-family: sans-serif;
+}
