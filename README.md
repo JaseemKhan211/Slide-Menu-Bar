@@ -1,5 +1,11 @@
 ### Slide Menu Bar
+This is a simple slide menu bar for practicing my Web Development.
 
-### GIF Video Explain this Project
+### Built With
+- **Html5**
+- **CSS3**
 
-![1-Video-_online-video-cutter com_](https://user-images.githubusercontent.com/60065412/81800435-46f85180-952c-11ea-9092-11860ce2f88f.gif)
+### View Project
+Hope you like it... View full project in this link here:
+https://jaseemkhan211.github.io/Slide-Menu-Bar/
+
